@@ -12,3 +12,6 @@ https://github.com/user-attachments/assets/7a810672-f02b-4c58-8b63-9f752dde151e
    - Waiting to find a level
   - Save the level, if you want or again find a level
   - ![Ekran Görüntüsü (216)](https://github.com/user-attachments/assets/8fac72fc-fff8-4e85-92ea-dc6ff108ddd0)
+# REFERENCES
+- https://www.geeksforgeeks.org/a-search-algorithm/
+- https://github.com/RonenNess/Unity-2d-pathfinding
