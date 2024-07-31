@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14fb81382663c34fb33d0a1b58d32db, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levels:
+  - levelID: 0
+    levelRow: 4
+    levelColumb: 4
+    levelConnectionInfos:
+    - levelStartIndex: {x: 0, y: 0}
+      levelEndIndex: {x: 2, y: 2}
+      levelColor: 1
+    - levelStartIndex: {x: 1, y: 0}
+      levelEndIndex: {x: 3, y: 2}
+      levelColor: 2
+  - levelID: 1
+    levelRow: 6
+    levelColumb: 6
+    levelConnectionInfos:
+    - levelStartIndex: {x: 2, y: 5}
+      levelEndIndex: {x: 2, y: 0}
+      levelColor: 5
+    - levelStartIndex: {x: 4, y: 5}
+      levelEndIndex: {x: 4, y: 0}
+      levelColor: 3
+    - levelStartIndex: {x: 5, y: 0}
+      levelEndIndex: {x: 5, y: 5}
+      levelColor: 4
+    - levelStartIndex: {x: 0, y: 0}
+      levelEndIndex: {x: 1, y: 4}
+      levelColor: 2
+    - levelStartIndex: {x: 3, y: 5}
+      levelEndIndex: {x: 3, y: 0}
+      levelColor: 1
+  connectColorReference:
+  - colorType: 1
+    connectSprite: {fileID: 21300000, guid: 3c0365632478619468dfbbf03cce2cca, type: 3}
+    connectColor: {r: 0.9921569, g: 0.21568629, b: 0.43137258, a: 1}
+  - colorType: 2
+    connectSprite: {fileID: 21300000, guid: 2c03cba3051814c45b9c4af83b3db9c6, type: 3}
+    connectColor: {r: 0.98823535, g: 0.86666673, b: 0.16078432, a: 1}
+  - colorType: 3
+    connectSprite: {fileID: 21300000, guid: 1243d1b388d472b4a912ac586d983f45, type: 3}
+    connectColor: {r: 0.73333335, g: 1, b: 0.18039216, a: 1}
+  - colorType: 4
+    connectSprite: {fileID: 21300000, guid: 0f93c0ec42b025d49a7f1345b1e95cd8, type: 3}
+    connectColor: {r: 0.227451, g: 0.68235296, b: 0.9607844, a: 1}
+  - colorType: 5
+    connectSprite: {fileID: 21300000, guid: 3e703e0ea45d74f478f3d05950fa8829, type: 3}
+    connectColor: {r: 0.48235297, g: 0.10588236, b: 0.85098046, a: 1}
